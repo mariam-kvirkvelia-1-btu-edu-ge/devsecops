@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-egress
+  namespace: Security
+spec:
+  podSelector: {}
+  policyTypes:
+    - Egress
+  egress:
+    - to:
+       - ipBlock:
+           cidr: 10.10.10.10/32
+      ports:
+        - protocol: TCP
+          port: 32000
