@@ -1,14 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T09:10:48.734Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9PbqKxwv_NCpNYh8-vwR" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T10:31:12.295Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="R9zpS2zy6oWnuQYQwuWc" version="24.6.0" type="github">
   <diagram name="Page-1" id="WsDnL3U2XvIw9-YJbdbP">
     <mxGraphModel dx="1434" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MeUHiYGSRh1xRkAT7kFK-1" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.vsphere_server;" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="110" height="102" as="geometry" />
+          <mxGeometry x="30" y="100" width="110" height="102" as="geometry" />
         </mxCell>
         <mxCell id="MeUHiYGSRh1xRkAT7kFK-2" value="" style="shape=mxgraph.rack.oracle.sun_datacenter_infiniband_switch_36;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="310" y="140" width="161" height="15" as="geometry" />
+          <mxGeometry x="240" y="140" width="161" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-3" value="" style="shape=mxgraph.rack.oracle.sun_datacenter_infiniband_switch_36;html=1;labelPosition=right;align=left;spacingLeft=15;shadow=0;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="374.5" width="161" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-6" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.hyper_v_host;" vertex="1" parent="1">
+          <mxGeometry x="31" y="310" width="108" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-7" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.server_nutanix;" vertex="1" parent="1">
+          <mxGeometry x="34.440000000000005" y="510" width="92.31" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-8" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.vsphere_server;" vertex="1" parent="1">
+          <mxGeometry x="34.44" y="730" width="105.56" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-9" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.veeam_backup_enterprise_manager_server;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="107.67" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-10" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_aws_backup_support_for_amazon_s3;" vertex="1" parent="1">
+          <mxGeometry x="300" y="910" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-11" value="Backup AWS Backup Support for Amazon S3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1000" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-12" value="Backup Server" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47.670000000000016" y="1012" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MeUHiYGSRh1xRkAT7kFK-13" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="170" y="960.5" as="sourcePoint" />
+            <mxPoint x="280" y="961" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="961.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
